@@ -1,0 +1,30 @@
+* {
+    margin: 0; 
+    box-sizing: border-box; 
+    padding: 0;
+}
+
+body{
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(53, 52, 52);
+    
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 70px;
+
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(58, 21, 21);
+}
